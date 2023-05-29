@@ -1,0 +1,101 @@
+/* Color scheme:
+Black: #000000;
+French bistre: #8e724d;
+Navajo white: #ffe0b5;
+Dark sienna: #350005;
+Rosy brown: #bd8a84;
+*/
+
+@font-face {
+  font-family: "Pacific Sans";
+  src: url(../assets/fonts/Pacific\ Beach\ Sans_Creative\ Fabrica_commercial\ license.otf);
+}
+
+@font-face {
+  font-family: "Pacific Script";
+  src: url(../assets/fonts/Pacific\ Beach\ Script_Creative\ Fabrica_commercial\ license.otf);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.pole .navigation li:after {
+  background: #8e724d;
+}
+
+h1 {
+  color: #ffe0b5;
+  font-family: "Pacific Sans", "Arial", sans-serif;
+  font-size: 5rem;
+  font-weight: normal;
+  line-height: 100%;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+}
+
+p {
+  color: #8e724d;
+  font-family: "Pacific Script", "Georgia", serif;
+  font-size: 4rem;
+  font-weight: normal;
+  line-height: 100%;
+  margin: 0 0 6rem 0;
+}
+
+.button {
+  background-color: unset;
+  border-radius: initial;
+  border: 2px solid #ffe0b5;
+  color: #ffe0b5;
+  font-family: "Pacific Sans", "Arial", sans-serif;
+  font-size: 1.5rem;
+  margin-top: -3rem;
+  padding: 10px 30px !important;
+  text-transform: uppercase;
+}
+
+.button:focus,
+.button:hover {
+  background-color: #350005;
+  box-shadow: none;
+  transform: none !important;
+  transition: none !important;
+}
+
+.button:focus {
+  outline: 0.25rem solid #bd8a84;
+}
+
+.link:hover,
+.link:focus {
+  opacity: 1 !important;
+}
+
+ul > li > a {
+  color: #8e724d;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+ul > li > a:focus,
+ul > li > a:hover {
+  box-shadow: none;
+  color: #ffe0b5;
+  transform: none !important;
+  transition: none !important;
+}
+
+ul > li > a:focus {
+  outline: 0.25rem solid #bd8a84;
+}
+
+footer p {
+  color: #8e724d;
+  font-family: "Arial", sans-serif;
+  font-size: 1.125rem;
+  line-height: 100%;
+  margin: 0;
+  text-align: center;
+}
